@@ -52,7 +52,7 @@ Malware syndicates constantly recycle codebase frameworks across separate campai
 ```
 ├── README.md                        # Master Technical Documentation
 ├── docs/                            # Holds all registration and architectural design documents
-│   ├── CIDECODE_2026_Abstract.pdf   # Final Formatted Abstract PDF for Registration
+│   ├── Team_Kavacha_CIDECODE_2026_ABSTRACT.pdf   # Final Formatted Abstract PDF for Registration
 │   └── system_architecture_flow.pdf # Visual Forensic Pipeline & Feature Area Blueprints
 ├── src/                             # Main Source Directory wrapping all application code
 │   ├── backend/                     # Python Forensic Extraction Backend (FastAPI/Flask)
