@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+androguard
+networkx
+requests
+reportlab
+python-dotenv

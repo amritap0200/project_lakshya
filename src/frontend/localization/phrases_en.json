@@ -1,0 +1,25 @@
+{
+  "HIGH RISK": {
+    "badge": "HIGH RISK",
+    "summary": "WARNING: This application exhibits HIGH-RISK behaviour consistent with financial fraud malware. It requests dangerous SMS and internet permissions typically used to intercept banking OTPs.",
+    "fir_note": "Immediate forensic escalation recommended. Attach this report to FIR as technical evidence."
+  },
+  "MEDIUM RISK": {
+    "badge": "MEDIUM RISK",
+    "summary": "CAUTION: Suspicious permission combinations detected. Manual review by a forensic analyst is advised before filing.",
+    "fir_note": "Submit for secondary review. Flag case for follow-up analysis."
+  },
+  "LOW RISK": {
+    "badge": "LOW RISK",
+    "summary": "CLEAR: No high-risk indicators detected. Application appears safe based on static analysis.",
+    "fir_note": "No immediate action required."
+  },
+  "labels": {
+    "package":     "Package Name",
+    "permissions": "Declared Permissions",
+    "threat_score": "Threat Confidence Score",
+    "ioc_count":   "Active C2 Indicators",
+    "dna_matches": "Genealogy Case Matches",
+    "generated":   "Report Generated"
+  }
+}

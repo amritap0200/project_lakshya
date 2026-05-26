@@ -1,0 +1,5 @@
+{
+  "ips":  ["45.33.32.156", "185.220.101.5", "203.0.113.42"],
+  "urls": ["malware-c2.tk", "otp-stealer.xyz", "sbi-secure-login.ml"],
+  "_note": "Offline fallback for demo. Replace with live feed in production."
+}

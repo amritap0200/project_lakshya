@@ -1,0 +1,37 @@
+{
+  "_description": "Template schema for auto-generated FIR technical annexure. Fields are populated by src/backend/modules/reporting/generator.py via ReportLab.",
+  "document_title": "FORENSIC TECHNICAL ANNEXURE — PROJECT LAKSHYA",
+  "issuing_authority": "Karnataka Cyber Crime Investigation Cell",
+  "sections": [
+    {
+      "id": "S1",
+      "title": "Risk Classification",
+      "fields": ["risk_label", "risk_label_kn", "threat_score"]
+    },
+    {
+      "id": "S2",
+      "title": "Executive Summary",
+      "fields": ["summary_en", "summary_kn"]
+    },
+    {
+      "id": "S3",
+      "title": "Static Analysis Findings",
+      "fields": ["package_name", "declared_permissions", "dangerous_combos", "brand_spoof_hits"]
+    },
+    {
+      "id": "S4",
+      "title": "C2 Infrastructure Indicators",
+      "fields": ["extracted_ips", "extracted_urls", "threat_hits"]
+    },
+    {
+      "id": "S5",
+      "title": "Code Genealogy",
+      "fields": ["fcg_hash", "genealogy_matches"]
+    },
+    {
+      "id": "S6",
+      "title": "Investigating Officer Declaration",
+      "fields": ["officer_name", "badge_number", "station", "date"]
+    }
+  ]
+}
